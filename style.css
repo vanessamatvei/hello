@@ -1,38 +1,38 @@
 /*Visibility*/
-.visible{
+.visible {
   visibility: visible;
 }
-.hidden{
-  visibility:hidden;
+.hidden {
+  visibility: hidden;
 }
 /*Opacity*/
-.op_1{
-  visibility:0;
+.op_1 {
+  visibility: 0;
 }
-.op_2{
-  visibility:0.5;
+.op_2 {
+  visibility: 0.5;
 }
-.op_3{
-  visibility:1;
+.op_3 {
+  visibility: 1;
 }
 /*Display*/
-.none{
-  display:none;
-  font-weight:bold;
+.none {
+  display: none;
+  font-weight: bold;
 }
-.inline{
-  display:inline;
-  font-weight:bold;
+.inline {
+  display: inline;
+  font-weight: bold;
 }
-.block{
-  display:block;
-  font-weight:bold;
-} 
-h3{
-  text-align:center;
-  background-color:rgb(210, 82, 116);
-  color:white;
+.block {
+  display: block;
+  font-weight: bold;
+}
+h3 {
+  text-align: center;
+  background-color: rgb(210, 82, 116);
+  font: white;
 }
 body {
-  background-color: #FFF0B8;
+  background-color: #fff0b8;
 }

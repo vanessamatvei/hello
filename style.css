@@ -31,8 +31,52 @@
 h3 {
   text-align: center;
   background-color: rgb(210, 82, 116);
-  font: white;
+  color: white;
 }
 body {
   background-color: #fff0b8;
+}
+h1:hover {
+  color: rgb(154, 64, 238);
+  font-weight: bold;
+}
+h1::before {
+  color: rgb(38, 158, 194);
+  font-weight: bold;
+  content: "Hello ";
+}
+h1::after {
+  color: rgb(38, 158, 194);
+  font-weight: bold;
+  content: " Bye!";
+}
+h1::selection {
+  background-color: rgb(115, 221, 115);
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.banner {
+  height: 200px;
+}
+.content {
+  height: 400px;
+}
+.footer {
+  height: 20px;
+  height: 100px;
+}
+img {
+  width: 100%;
+  filter: grayscale(100%) invert(100%);
 }

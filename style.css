@@ -90,7 +90,7 @@ img#peppa-pig {
     }
 }
 
-img#animation {
+img#animation:hover {
     animation: vanessa-animation 3s forwards;
     width:400px;
     height:600px;

@@ -97,16 +97,16 @@ img#animation {
 }
 
 img {
-  width:100%;
+  width:20%;
   transition: width 1s, height 1s;
 }
 
 img#interactions_1:hover {
-  width:600px;
-  height:400px;
+  width:60%;
+  height:40%;
 }
 img#interactions_2:active {
-  height:400px;
+  height:50%;
   filter: brightness(120%);
 }
 

@@ -99,7 +99,7 @@ img#animation:hover {
 /*Interactions*/
 img {
   width:25%;
-  align:center;
+  align-content: center;
   transition: width 2s, height 2s;
   margin:40px;
 }
@@ -110,7 +110,6 @@ img#interactions_1:hover {
 }
 img#interactions_2:active {
   height:50%;
-  filter: invert(50%);
   width:60%;
 }
 .footer{

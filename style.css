@@ -98,7 +98,7 @@ img#animation {
 
 img {
   width:20%;
-  transition: width 1s, height 1s;
+  transition: width 2s, height 2s;
 }
 
 img#interactions_1:hover {

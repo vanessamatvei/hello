@@ -101,6 +101,7 @@ img {
   width:25%;
   align-content: center;
   transition: width 2s, height 2s;
+  padding: 0px, 0px, 0px,5px;
 }
 
 img#interactions_1:hover {

@@ -101,7 +101,6 @@ img {
   width:25%;
   align-content: center;
   transition: width 2s, height 2s;
-  margin:40px;
 }
 
 img#interactions_1:hover {
@@ -111,9 +110,5 @@ img#interactions_1:hover {
 img#interactions_2:active {
   height:50%;
   width:60%;
-}
-.footer{
-    margin:50px;
-    padding:10px;
 }
 

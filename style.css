@@ -113,4 +113,8 @@ img#interactions_2:active {
   filter: invert(50%);
   width:60%;
 }
+.footer{
+    margin:50px;
+    padding:10px;
+}
 

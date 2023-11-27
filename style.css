@@ -76,7 +76,25 @@ h1::selection {
   height: 20px;
   height: 100px;
 }
-img {
+img.peppa-pig {
   width: 100%;
   filter: grayscale(100%) invert(100%);
+}
+/*Animation*/
+@keyframes vanessa-animation {
+    from{
+        filter:grayscale(0%);
+    }
+    to{
+        filter:grayscale(100%);
+    }
+}
+
+img.animation {
+    animation: vanessa-animation 3s forwards;
+}
+
+img {
+    width:400px;
+    height:600px;
 }

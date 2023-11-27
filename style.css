@@ -76,7 +76,7 @@ h1::selection {
   height: 20px;
   height: 100px;
 }
-img.peppa-pig {
+img#peppa-pig {
   width: 100%;
   filter: grayscale(100%) invert(100%);
 }
@@ -90,11 +90,9 @@ img.peppa-pig {
     }
 }
 
-img.animation {
+img#animation {
     animation: vanessa-animation 3s forwards;
-}
-
-img {
     width:400px;
     height:600px;
 }
+

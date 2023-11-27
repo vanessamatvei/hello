@@ -96,3 +96,17 @@ img#animation {
     height:600px;
 }
 
+img {
+  width:100%;
+  transition: width 1s, height 1s;
+}
+
+img#interactions_1:hover {
+  width:600px;
+  height:400px;
+}
+img#interactions_2:active {
+  height:400px;
+  filter: brightness(120%);
+}
+

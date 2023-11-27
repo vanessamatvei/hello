@@ -84,12 +84,10 @@ img#peppa-pig {
 @keyframes vanessa-animation {
     from{
         filter:grayscale(0%);
-        width:400px;
         height:600px;
     }
     to{
         filter:grayscale(100%);
-        width:450px;
         height:650px;
     }
 }
@@ -110,6 +108,7 @@ img#interactions_1:hover {
 }
 img#interactions_2:active {
   height:50%;
-  filter: brightness(120%);
+  filter: invert(50%);
+  width:60%;
 }
 

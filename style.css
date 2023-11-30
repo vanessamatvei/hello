@@ -84,7 +84,7 @@ img#peppa-pig {
 @keyframes vanessa-animation {
     from{
         filter:grayscale(0%);
-        height:600px;
+        height:650px;
     }
     to{
         filter:grayscale(100%);
